@@ -1,30 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&family=Delius&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Emily's Portfolio</title>
-    <link rel="stylesheet" href="./assets/styles/styles.css">
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <header>
-        <h1>Welcome to Emily's Portfolio</h1>
+        <div><h1 class="main">Emily's Portfolio</h1></div>
     </header>
-    <hr />
     <main>
-        <section id="projects">
-        <h2>My Projects</h2>
-        <h3>Birthday Invite</h3>
-        <a href="./public/Projects/Birthday Invite Project.html"><img src="./assets/images/birthday-invite.png" alt="Birthday Invite Preview" height="200"></a>
-        <p>A simple HTML page for a birthday invitation.</p>
-        <h3>Movie List</h3>
-        <a href="./public/Projects/Movie Project.html"><img src="./assets/images/movie-ranking.png" alt="Movie List Preview" height="200"></a>
-        <p>A website to keep track of my favorite movies.</p>
+        <section class="menu">
+            <nav>
+                <ul>
+                    <li><a href="./public/about.html">About Me</a></li>
+                    <li><a href="./public/contact.html">Contact Me</a></li>
+                </ul>
+            </nav>
+        </section>
+        <section class="projects">
+            
+                <h2 class="main"><span>My Projects</span></h2>
+             <div class="project-row"> 
+                <div class="project-card">
+                 <h3 class="project-title">Birthday Invite</h3>
+                <a class="project-link" href="./public/Projects/Birthday Invite Project.html"><img src="../assets/images/birthday-invite.png" alt="Birthday Invite Preview" height="200"></a>
+                </div>
+                <div class="project-card">
+                <h3 class="project-title">Movie List</h3>
+                <a class="project-link" href="./public/Projects/Movie Project.html"><img src="../assets/images/movie-ranking.png" alt="Movie List Preview" height="200"></a>
+                </div>
+            </div>
         </section>
     </main>
-    <hr />
-    <footer>
-        <a href="./public/about.html"><h4>About Me</h4></a>
-        <a href="./public/contact.html"><h4>Contact Me</h4></a>
-    </footer>
 </html>
