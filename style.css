@@ -1,0 +1,76 @@
+body {
+    background-color: #F1EFEC;
+}
+
+h1.main {
+    font-family: delius, sans-serif;
+    font-size: 3em;
+    color: #030303;
+    text-align: center;
+    background-color: #D4C9BE;
+    display: block;
+    padding: 25px;
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+h2.main {
+    font-family: delius, sans-serif;
+    font-size: 2em;
+    color: #030303;
+    background-color: #D4C9BE;
+    text-align: center;
+    position: relative;
+    align-self: center;
+}
+.project-row  {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.project-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: delius, sans-serif;
+}
+
+.project-card img {
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+}
+
+p.intro {
+    font-family: libre baskerville, serif;
+    font-size: 1.2em;
+    color: #030303;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+.profile-pic {
+    width: 500px;
+    height: 400px;
+    border-radius: 50%;
+    display: block;
+    margin: 20px auto;
+}
+
+.contact-info {
+    text-align: center;
+    font-family: delius, sans-serif;
+    margin: 20px auto;
+}
